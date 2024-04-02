@@ -1,5 +1,5 @@
 const useHotelAPI = () => {
-  const URL_API = "https://hotels-api.academlo.tech";
+  const URL_API = "https://booking-vkku.onrender.com";
   const token = sessionStorage.getItem("token");
 
   const getCities = async () => {

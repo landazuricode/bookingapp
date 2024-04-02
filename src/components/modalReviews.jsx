@@ -61,11 +61,11 @@ export default function ModalReviews({ show, setshow, data }) {
         <label className="reviews__label reviews__label__rating">
           <span className="reviews__label__name">Rating</span>
           <select className="reviews__rating" name="rating">
-            <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
-            <option value="4">⭐️⭐️⭐️⭐️</option>
-            <option value="3">⭐️⭐️⭐️</option>
-            <option value="2">⭐️⭐️</option>
-            <option value="1">⭐️</option>
+            <option defaultValue="5">⭐️⭐️⭐️⭐️⭐️</option>
+            <option defaultValue="4">⭐️⭐️⭐️⭐️</option>
+            <option defaultValue="3">⭐️⭐️⭐️</option>
+            <option defaultValue="2">⭐️⭐️</option>
+            <option defaultValue="1">⭐️</option>
           </select>
         </label>
         <label className="reviews__label">

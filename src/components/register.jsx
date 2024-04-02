@@ -74,21 +74,14 @@ export default function Register() {
         </div>
         <div className="form-register__field">
           <select className="form-register__select" required name="gender">
-            <option
-              className="form-register__option"
-              value="unknown"
-              selected=""
-            >
-              unknown
+            <option className="form-register__option" defaultValue="MALE">
+              MALE
             </option>
-            <option className="form-register__option" value="male">
-              male
+            <option className="form-register__option" defaultValue="FEMALE">
+              FEMALE
             </option>
-            <option className="form-register__option" value="female">
-              female
-            </option>
-            <option className="form-register__option" value="other">
-              other
+            <option className="form-register__option" defaultValue="OTHER">
+              OTHER
             </option>
           </select>
         </div>
